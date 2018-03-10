@@ -36,6 +36,7 @@ namespace SammysAuto
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
 
+
             services.AddMvc();
         }
 
